@@ -1,0 +1,45 @@
+
+/*   index    */
+
+.wrapper {
+  display: flex;
+  height: 100vh;
+}
+
+.side_bar {
+  width: 300px;
+}
+
+.side_bar__head {
+  background-color: #253141;
+  height: 100px;
+  padding: 0 20px;
+}
+
+.side_bar__room {
+  height: calc(100% - 100px);
+  background-color: #2f3e51;
+  padding: 0 20px;
+}
+
+.main_view {
+  width: calc(100vw - 300px);
+}
+
+.main_view__head {
+  height: 100px;
+  background-color: #ffffff;
+  padding: 0 40px;
+}
+
+.main_view__messages {
+  height: calc(100% - 100px - 100px); /* formとheadから引いた形だと他の人がわかりやすい書き方にする。   */
+  background-color: #fafafa;
+  padding: 46px 40px 0;
+}
+
+.main_view__form {
+  height: 90px;
+  background-color: #dddddd;
+  padding: 20px 40px;
+}
