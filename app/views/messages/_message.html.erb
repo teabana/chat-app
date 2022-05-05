@@ -1,16 +1,13 @@
-
-<div class="main_view__messages">
-  <div class="messages">
-    <div class="messages_head">
-      <div class="messages_name">
-        <%= message.user.name %>
-      </div>
-      <div class="messages_date">
-        <%= l message.created_at %>
-      </div>
+<div class="messages">
+  <div class="messages_head">
+    <div class="messages_name">
+      <%= message.user.name %>
     </div>
-    <div class="messages_text">
-      <%= message.content %>
+    <div class="messages_date">
+      <%= l message.created_at %>
     </div>
+  </div>
+  <div class="messages_text">
+    <%= message.content %>
   </div>
 </div>

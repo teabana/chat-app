@@ -96,7 +96,7 @@
   height: calc(100vh - 100px - 90px); /* formとheadから引いた形だと他の人がわかりやすい書き方にする。   */
   background-color: #fafafa;
   padding: 46px 40px 0;
-  /* overflow-y: scroll; */
+  overflow-y: scroll;
 }
 
 /* .main_view__messages::-webkit-scrollbar {
